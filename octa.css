@@ -5,6 +5,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   color: #333;
+  overflow-x: hidden;
 }
 /* top row */
 
@@ -25,11 +26,11 @@ body {
 .button1 a{
   display: inline-block;
   padding: 10px 20px;
-  background-color: #dcdcde;
+  background-color: greenyellow;
   color: #101010;
  text-decoration: none;
   font-size: 1.2em;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: background-color 0.3s;
   position: relative;
   top: 10px;
@@ -70,7 +71,7 @@ input[type=text] {
 .sign{
   display: inline-block;
   padding: 10px 15px;
-  background-color: #dcdcde;
+  background-color: greenyellow;
   color: #0e0d0d;
   text-decoration: none;
   font-size: 1.2em;
@@ -81,11 +82,15 @@ input[type=text] {
   left: 24%;
  
 }
+.title{
+  position: relative;
+  left: 30px;
+}
 
 .title img{
-  width: 1500px;
+  width: 1200px;
   height: 300px;
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
  
   background-repeat: no-repeat;
@@ -106,13 +111,13 @@ span{
 span a{
   text-decoration: none;
 }
+
 .whyimage{
-  margin: 60px;
   position: relative;
-  left: 460px;
-  bottom: 1000px;
-  
+  top: 50px;
+  right: 50px;
 }
+
 
 
 .whychoose h3{
@@ -120,6 +125,12 @@ span a{
   left: 500px;
   margin: 50px;
   top: 30px;
+  bottom: 0;
+}
+.whychoose{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
 }
 .image1 img{
   position: relative;
@@ -187,13 +198,11 @@ span a{
 
 .whycon{
   position: relative;
-  bottom: 30px;
+  bottom: 10px;
+
 }
 
-.aboutcard{
-position: relative;
-bottom:1000px;
-}
+
 
 
 .top-row{
@@ -201,10 +210,11 @@ bottom:1000px;
   justify-content: center;
   margin-top: 20px;
   position: relative;
+  right: 22px;
 
 }
 .log:hover{
-  background-color: #dcdcde;
+  background-color: greenyellow;
 }
 
 /* top row */
@@ -243,6 +253,8 @@ p {
   gap: 100px;
   justify-content: center;
   margin-top: 100px;
+  position: relative;
+  left: 9px;
 
   
 }
@@ -264,20 +276,21 @@ main {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 h2 {
   color: #333;
 }
 
+
 .team-member {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .team-member img {
   width: 150px;
+  height: 150px;
 
   border: 2px solid #333;
 }
@@ -289,4 +302,9 @@ footer {
   padding: 10px;
   bottom: 0;
   width: 100%;
+}
+.aboutus{
+  top: 0;
+  position: relative;
+  
 }
